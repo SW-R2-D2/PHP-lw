@@ -56,4 +56,4 @@ function calculator(string $value): string
     }
     return $sum;
 }
-echo calculator('5-5+5+5+5');
+echo calculator('5-5+5+5-5');
