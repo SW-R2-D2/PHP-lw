@@ -51,9 +51,6 @@ function calculator(string $value): string
             }
         }
     }
-    if ($sum < 0) {
-        $sum = 0;
-    }
     return $sum;
 }
 echo calculator('5-5+5+5-5');
