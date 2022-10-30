@@ -76,11 +76,11 @@ function sumTime($time1, $time2)
     $minutes = floor($seconds / 60);
     $seconds -= $minutes * 60;
 
-    if ($hours > 24)
+    while ($hours > 24)
         $hours -= 24;
 
     return sprintf('%02d:%02d:%02d', $hours, $minutes, $seconds);
 }
 
-echo sumTime('10:00:00', '23:31:00');
+echo sumTime('10:00:00', '100:31:00');
 ?>
