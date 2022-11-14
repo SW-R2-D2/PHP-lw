@@ -1,6 +1,6 @@
 <?php
-//Task 1.
-function calculator(string $value): string
+//Task 1.3.
+function calculator($value)
 {
     $signArr = [];
     $numberArr = [];
@@ -54,11 +54,11 @@ function calculator(string $value): string
     }
     return $sum;
 }
-echo calculator('5-5+5+5-5');
+echo calculator(readLine($value));
 ?>
 
 <?php
-//Task 2.
+//Task 2,3.
 function sumTime($time1, $time2)
 {
     $seconds = 0;
@@ -81,6 +81,5 @@ function sumTime($time1, $time2)
 
     return sprintf('%02d:%02d:%02d', $hours, $minutes, $seconds);
 }
-
-echo sumTime('10:00:00', '100:31:00');
+echo sumTime(readLine($time1), readLine($time2));
 ?>
