@@ -11,3 +11,7 @@ lw1 (Task 1, 2)
 Class development Calculator and Date.
 
 ---
+
+lw 2, 3, 4 non - working!
+
+---
