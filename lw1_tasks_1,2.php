@@ -109,11 +109,11 @@ class Date
     }
 }
 
-$date = new Date(1, 2, 2001);
+$date1 = new Date(1, 2, 2001);
 $date2 = new Date(1, 4, 2001);
-$date->format('rus');
-$date->format('eng');
-$date->date_diff($date2);
-$date->getWeek();
-$date->minusDay(4);
+$date1->format('rus');
+$date1->format('eng');
+$date1->date_diff($date2);
+$date1->getWeek();
+$date1->minusDay(4);
 ?>
